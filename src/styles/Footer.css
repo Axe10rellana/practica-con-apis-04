@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  user-select: none;
+  background-color: #262c3a;
+  color: var(--color-01);
+}
+
+.footer__p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer__socialMediaContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer__socialMediaContainer__left {
+  margin-right: 1rem;
+}
+
+.footer__socialMediaContainer__right {
+  margin-left: 1rem;
+}

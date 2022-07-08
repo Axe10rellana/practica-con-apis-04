@@ -1,0 +1,15 @@
+.notfound__button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--color-21);
+  color: var(--color-01);
+  transition: ease-in-out 0.5s opacity;
+}
+
+.notfound__button:hover {
+  opacity: 0.8;
+}

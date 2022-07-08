@@ -1,0 +1,52 @@
+.home__title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--color-21);
+  user-select: none;
+}
+
+.home__input {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  outline: none;
+  color: var(--color-21);
+}
+
+.home__input::placeholder {
+  color: var(--color-21);
+}
+
+.home__input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  height: 1em;
+  width: 1em;
+  border-radius: 50em;
+  background: url("https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg")
+    no-repeat 50% 50%;
+  background-size: contain;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.home__input[type="search"]:focus::-webkit-search-cancel-button {
+  opacity: 1;
+  pointer-events: all;
+  background-color: var(--color-11);
+}
+
+@media screen and (max-width: 500px) {
+  .home__input {
+    max-width: 300px;
+  }
+}

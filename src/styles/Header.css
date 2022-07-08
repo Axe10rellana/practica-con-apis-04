@@ -1,0 +1,17 @@
+.header {
+  background-color: var(--color-01);
+  margin-bottom: 4rem;
+  border-bottom: 1px solid #262c3a;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
